@@ -83,7 +83,11 @@
                   "TronM0PortalLite",
                   "TronHypEverclearCollateral",
                   "TronHypEverclearEth",
-                  "TronHypCrossCollateralRouter"
+                  "TronHypCrossCollateralRouter",
+                  "MidnightNative",
+                  "MidnightHypNative",
+                  "MidnightHypCollateral",
+                  "MidnightHypSynthetic"
                 ],
                 "description": "The type of token. See TokenStandard for valid values."
               },
