@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=../schema.json
+blocks:
+  confirmations: 0
+  estimateBlockTime: 6
+  reorgPeriod: 1
+chainId: 1234
+deployer:
+  name: Equilibrium
+  url: https://equilibrium.co
+displayName: Midnight Stagenet
+domainId: 1234
+isTestnet: true
+name: midnight
+nativeToken:
+  decimals: 6
+  name: NIGHT
+  symbol: NIGHT
+protocol: midnight
+rpcUrls:
+  - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
+technicalStack: polkadotsubstrate
