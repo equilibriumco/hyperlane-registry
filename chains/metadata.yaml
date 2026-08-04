@@ -1380,6 +1380,32 @@ carbon:
   protocol: ethereum
   rpcUrls:
     - http: https://evm-api.carbon.network
+cardanopreview:
+  blockExplorers:
+    - apiUrl: https://preview.cardanoscan.io
+      family: other
+      name: Cardanoscan
+      url: https://preview.cardanoscan.io
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 20
+    reorgPeriod: 5
+  chainId: 2003
+  deployer:
+    name: Equilibrium
+    url: https://equilibrium.co
+  displayName: Cardano Preview
+  domainId: 2003
+  isTestnet: true
+  name: cardanopreview
+  nativeToken:
+    decimals: 6
+    name: Cardano
+    symbol: ADA
+  protocol: cardano
+  rpcUrls:
+    - http: https://cardano-preview.blockfrost.io/api/v0
+  technicalStack: other
 carrchain:
   blockExplorers:
     - apiUrl: https://carrscan.io/api/v1

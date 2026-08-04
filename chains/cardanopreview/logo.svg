@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+<circle cx="18" cy="18" r="17.5" fill="#0033ad"/>
+<circle cx="18" cy="18" r="2.8" fill="#fff"/>
+<g fill="#fff">
+<circle cx="25.31" cy="18" r="1.9"/><circle cx="21.66" cy="24.33" r="1.9"/><circle cx="14.34" cy="24.33" r="1.9"/>
+<circle cx="10.69" cy="18" r="1.9"/><circle cx="14.34" cy="11.67" r="1.9"/><circle cx="21.66" cy="11.67" r="1.9"/>
+</g>
+<g fill="#fff" opacity="0.85">
+<circle cx="18" cy="5.1" r="1.45"/><circle cx="29.17" cy="11.55" r="1.45"/><circle cx="29.17" cy="24.45" r="1.45"/>
+<circle cx="18" cy="30.9" r="1.45"/><circle cx="6.83" cy="24.45" r="1.45"/><circle cx="6.83" cy="11.55" r="1.45"/>
+</g>
+</svg>
