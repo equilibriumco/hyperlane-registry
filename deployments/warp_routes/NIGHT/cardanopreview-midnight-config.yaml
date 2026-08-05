@@ -5,6 +5,7 @@ tokens:
     connections:
       - token: midnight|midnight|0x25a367845fb5ae5ed5ee1524822f206ab5fd54fc59c85b616b7ebae375d978c9
     decimals: 6
+    scale: 1000000000000
     logoURI: /deployments/warp_routes/NIGHT/sNIGHT-logo.svg
     name: Synthetic NIGHT
     standard: CardanoHypSynthetic
@@ -14,6 +15,7 @@ tokens:
     connections:
       - token: cardano|cardanopreview|0x01000000ed08f892a125915b483cd7547a2f9dfbf0531b21ec7389110bedfc2f
     decimals: 6
+    scale: 1000000000000
     logoURI: /deployments/warp_routes/NIGHT/logo.svg
     name: NIGHT
     standard: MidnightHypNative
