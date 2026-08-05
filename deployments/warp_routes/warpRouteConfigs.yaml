@@ -5522,7 +5522,7 @@ NIGHT/cardanopreview-midnight:
       connections:
         - token: midnight|midnight|0x25a367845fb5ae5ed5ee1524822f206ab5fd54fc59c85b616b7ebae375d978c9
       decimals: 6
-      logoURI: /deployments/warp_routes/NIGHT/logo.svg
+      logoURI: /deployments/warp_routes/NIGHT/sNIGHT-logo.svg
       name: Synthetic NIGHT
       standard: CardanoHypSynthetic
       symbol: sNIGHT
