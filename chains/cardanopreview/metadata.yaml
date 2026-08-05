@@ -8,6 +8,7 @@ blocks:
   confirmations: 1
   estimateBlockTime: 20
   reorgPeriod: 5
+bech32Prefix: addr_test
 chainId: 2003
 deployer:
   name: Equilibrium
