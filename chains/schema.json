@@ -347,6 +347,8 @@
                 "radix",
                 "aleo",
                 "tron",
+                "midnight",
+                "cardano",
                 "unknown"
               ]
             },
