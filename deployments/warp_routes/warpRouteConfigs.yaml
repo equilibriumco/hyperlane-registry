@@ -1,4 +1,3 @@
-# AUTO-GENERATED; DO NOT EDIT MANUALLY
 1Piece/eni:
   tokens:
     - addressOrDenom: "0xb7d28Dc6C6EbA10AB67255841FA521F83f35C6b2"
@@ -986,9 +985,9 @@ CROSS/moonpay:
         - token: ethereum|polygon|0x766A80a7a6BBA555731DC1726DB5BFa030631270
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
-      name: USD₮0
+      name: "USD\u20AE0"
       standard: EvmHypCrossCollateralRouter
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
     - addressOrDenom: "0x7abBb4ea8a5895127500CF0C15830C9Eb9f61F96"
       chainName: base
       coinGeckoId: tether
@@ -1353,9 +1352,9 @@ CROSS/moonpay-staging:
         - token: ethereum|base|0xF147AAE190F01aaB67152D97Ad3b157c3957BD77
         - token: ethereum|ethereum|0x4628D301C4A1A32B4C7E753621b0787C32ee7475
       decimals: 6
-      name: USD₮0
+      name: "USD\u20AE0"
       standard: EvmHypCrossCollateralRouter
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
       tokenType: crossCollateral
     - addressOrDenom: "0x3382D9253eE54d49A90cBA41Cfc7b2704e713cEf"
       chainName: polygon
@@ -5516,6 +5515,26 @@ NEX/bsc:
       name: Nexus
       standard: EvmHypCollateral
       symbol: NEX
+NIGHT/cardanopreview-midnight:
+  tokens:
+    - addressOrDenom: "0x01000000ed08f892a125915b483cd7547a2f9dfbf0531b21ec7389110bedfc2f"
+      chainName: cardanopreview
+      connections:
+        - token: midnight|midnight|0x32782800d500697d19ad42ae2a8b83936381f23c5c53cd7a8f2c7cc64e5c0759
+      decimals: 6
+      logoURI: /deployments/warp_routes/NIGHT/logo.svg
+      name: Synthetic NIGHT
+      standard: CardanoHypSynthetic
+      symbol: sNIGHT
+    - addressOrDenom: "0x32782800d500697d19ad42ae2a8b83936381f23c5c53cd7a8f2c7cc64e5c0759"
+      chainName: midnight
+      connections:
+        - token: cardano|cardanopreview|0x01000000ed08f892a125915b483cd7547a2f9dfbf0531b21ec7389110bedfc2f
+      decimals: 6
+      logoURI: /deployments/warp_routes/NIGHT/logo.svg
+      name: NIGHT
+      standard: MidnightHypNative
+      symbol: NIGHT
 NIGHT/midnight-sepolia:
   tokens:
     - addressOrDenom: "0x25a367845fb5ae5ed5ee1524822f206ab5fd54fc59c85b616b7ebae375d978c9"
@@ -11839,10 +11858,10 @@ USDT/aleo:
         - token: sealevel|solanamainnet|GZ5zWtLNbQ2qJPymkS9My4AYatQx5HV7MQ9f68vG6GNi
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
-      name: USD₮0
+      name: "USD\u20AE0"
       scale: 1000000000000
       standard: EvmHypCollateral
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
       tokenType: collateral
     - addressOrDenom: GZ5zWtLNbQ2qJPymkS9My4AYatQx5HV7MQ9f68vG6GNi
       chainName: solanamainnet
@@ -12183,12 +12202,12 @@ USDT/eclipsemainnet:
         - token: tron|tron|0xbf8078818627110fD05827Ca0aa9E4518d3421ec
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
-      name: USD₮0
+      name: "USD\u20AE0"
       scale:
         denominator: 1
         numerator: 1
       standard: EvmHypCollateral
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
     - addressOrDenom: "0xc13d466B9E196AfdE472856923E857cc298EDf1b"
       chainName: bsc
       coinGeckoId: tether
@@ -12706,9 +12725,9 @@ USDT/moonpay:
         - token: ethereum|polygon|0x766A80a7a6BBA555731DC1726DB5BFa030631270
       decimals: 6
       logoURI: /deployments/warp_routes/USDT/logo.svg
-      name: USD₮0
+      name: "USD\u20AE0"
       standard: EvmHypCrossCollateralRouter
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
     - addressOrDenom: "0x7abBb4ea8a5895127500CF0C15830C9Eb9f61F96"
       chainName: base
       coinGeckoId: tether
@@ -12830,9 +12849,9 @@ USDT/moonpay-staging:
         - token: ethereum|base|0xF147AAE190F01aaB67152D97Ad3b157c3957BD77
         - token: ethereum|ethereum|0x4628D301C4A1A32B4C7E753621b0787C32ee7475
       decimals: 6
-      name: USD₮0
+      name: "USD\u20AE0"
       standard: EvmHypCrossCollateralRouter
-      symbol: USD₮0
+      symbol: "USD\u20AE0"
       tokenType: crossCollateral
     - addressOrDenom: "0x3382D9253eE54d49A90cBA41Cfc7b2704e713cEf"
       chainName: polygon
@@ -13015,7 +13034,7 @@ USDTSTAGE/mode:
         - token: ethereum|plasma|0xa7E4dC4078bAc6e97Eec52a4F7642fF51cbb17C1
         - token: sealevel|solanamainnet|7xQYs3RZvycfk3nwDPGZhbkA9318xx324xhWDcENVfjg
       decimals: 6
-      name: USD₮0
+      name: "USD\u20AE0"
       standard: EvmHypCollateral
       symbol: USDTSTAGE
     - addressOrDenom: "0x4f7635A2F9795c10DF260C2fc0A23e0F60B4829C"
@@ -14343,7 +14362,7 @@ oUSDT/production:
       logoURI: /deployments/warp_routes/USDT/logo.svg
       name: USDT
       standard: EvmHypVSXERC20Lockbox
-      symbol: USD₮
+      symbol: "USD\u20AE"
     - addressOrDenom: "0x88AC0fC430130983c0DDEB4C22574056D8340Ca8"
       chainName: ethereum
       coinGeckoId: tether
@@ -15028,7 +15047,7 @@ oUSDT/staging:
       decimals: 6
       name: USDT
       standard: EvmHypVSXERC20Lockbox
-      symbol: USD₮
+      symbol: "USD\u20AE"
     - addressOrDenom: "0x8a60E4aC11C2Fac40Dc936E048e05145547A4356"
       chainName: ethereum
       coinGeckoId: tether

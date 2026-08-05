@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - addressOrDenom: "0x01000000ed08f892a125915b483cd7547a2f9dfbf0531b21ec7389110bedfc2f"
+    chainName: cardanopreview
+    connections:
+      - token: midnight|midnight|0x32782800d500697d19ad42ae2a8b83936381f23c5c53cd7a8f2c7cc64e5c0759
+    decimals: 6
+    logoURI: /deployments/warp_routes/NIGHT/logo.svg
+    name: Synthetic NIGHT
+    standard: CardanoHypSynthetic
+    symbol: sNIGHT
+  - addressOrDenom: "0x32782800d500697d19ad42ae2a8b83936381f23c5c53cd7a8f2c7cc64e5c0759"
+    chainName: midnight
+    connections:
+      - token: cardano|cardanopreview|0x01000000ed08f892a125915b483cd7547a2f9dfbf0531b21ec7389110bedfc2f
+    decimals: 6
+    logoURI: /deployments/warp_routes/NIGHT/logo.svg
+    name: NIGHT
+    standard: MidnightHypNative
+    symbol: NIGHT
