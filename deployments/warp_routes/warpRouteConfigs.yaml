@@ -15969,19 +15969,19 @@ tUSD/eclipsemainnet-ethereum:
       symbol: tUSD
 wADA/cardanopreview-sepolia:
   tokens:
-    - addressOrDenom: "0x01000000bfbfd7ab59492bd6b3a4a77a6f00774145d43f306a9bf326f74da44c"
+    - addressOrDenom: "0x01000000450d958838c51d88c532c934bb3943e09b3e08ef12c2b4eb9b1670ce"
       chainName: cardanopreview
       connections:
-        - token: ethereum|sepolia|0x7b1604c4696d781fd06be96e0f0da369058b3cb5
+        - token: ethereum|sepolia|0x127ab2b2c5b8d9ae757c8cf0c3fe76c5ede49f78
       decimals: 6
       logoURI: /deployments/warp_routes/wADA/logo.svg
       name: Cardano
       standard: CardanoHypNative
       symbol: ADA
-    - addressOrDenom: "0x7b1604c4696d781fd06be96e0f0da369058b3cb5"
+    - addressOrDenom: "0x127ab2b2c5b8d9ae757c8cf0c3fe76c5ede49f78"
       chainName: sepolia
       connections:
-        - token: cardano|cardanopreview|0x01000000bfbfd7ab59492bd6b3a4a77a6f00774145d43f306a9bf326f74da44c
+        - token: cardano|cardanopreview|0x01000000450d958838c51d88c532c934bb3943e09b3e08ef12c2b4eb9b1670ce
       decimals: 6
       logoURI: /deployments/warp_routes/wADA/logo.svg
       name: Wrapped ADA
