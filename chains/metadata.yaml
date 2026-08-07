@@ -1381,6 +1381,7 @@ carbon:
   rpcUrls:
     - http: https://evm-api.carbon.network
 cardanopreview:
+  bech32Prefix: addr_test
   blockExplorers:
     - apiUrl: https://preview.cardanoscan.io
       family: other
