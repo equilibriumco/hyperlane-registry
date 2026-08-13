@@ -5389,15 +5389,19 @@ midnight:
     url: https://equilibrium.co
   displayName: Midnight Stagenet
   domainId: 1234
+  gatewayUrls:
+    - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
   isTestnet: true
+  midnightNetworkId: stagenet
   name: midnight
   nativeToken:
     decimals: 6
+    denom: night
     name: NIGHT
     symbol: NIGHT
   protocol: midnight
   rpcUrls:
-    - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
+    - http: wss://rpc.stagenet.shielded.tools
   technicalStack: polkadotsubstrate
 milkyway:
   availability:
