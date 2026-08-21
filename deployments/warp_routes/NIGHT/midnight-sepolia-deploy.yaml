@@ -1,0 +1,15 @@
+midnight:
+  type: native
+  name: NIGHT
+  symbol: NIGHT
+  decimals: 6
+  scale: 1000000000000
+  mailbox: 'b424d62e725fe615576e948b675d21ae7ddb9fc8f97d179d4bc5edaf1f016790'
+  remoteRouters:
+    '11155111':
+      address: '0x0000000000000000000000001F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb'
+sepolia:
+  type: synthetic
+  owner: '0xE06a2d7Ab63845A06B95f11FF05a62807f422E09'
+  foreignDeployment: '0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb'
+  gas: 200000

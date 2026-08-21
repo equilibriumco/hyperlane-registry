@@ -11,6 +11,8 @@ displayName: Midnight Stagenet
 domainId: 1234
 gatewayUrls:
   - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
+index:
+  from: 13407
 isTestnet: true
 midnightNetworkId: stagenet
 name: midnight
