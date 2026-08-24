@@ -7,8 +7,9 @@ tokens:
       - token: ethereum|sepolia|0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb
     decimals: 6
     name: NIGHT
+    scale: 1000000000000
     standard: MidnightHypNative
-    symbol: sNIGHT
+    symbol: NIGHT
     tokenType: native
   - addressOrDenom: "0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb"
     chainName: sepolia

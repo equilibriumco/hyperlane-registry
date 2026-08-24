@@ -5525,8 +5525,9 @@ NIGHT/midnight-sepolia:
       decimals: 6
       igpTokenAddressOrDenom: 5a29bf11d6ac29d923f955ebd27171232433d65cdb176d780f2be17da4df8491
       name: NIGHT
+      scale: 1000000000000
       standard: MidnightHypNative
-      symbol: sNIGHT
+      symbol: NIGHT
       tokenType: native
     - addressOrDenom: "0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb"
       chainName: sepolia
