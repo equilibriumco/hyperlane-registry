@@ -17,6 +17,8 @@ displayName: Sepolia
 domainId: 11155111
 gasCurrencyCoinGeckoId: ethereum
 gnosisSafeTransactionServiceUrl: https://api.safe.global/tx-service/sep
+index:
+  from: 11513553
 isTestnet: true
 name: sepolia
 nativeToken:
@@ -29,3 +31,4 @@ rpcUrls:
   - http: https://gateway.tenderly.co/public/sepolia
   - http: https://sepolia.drpc.org
   - http: https://1rpc.io/sepolia
+rpcConsensusType: fallback

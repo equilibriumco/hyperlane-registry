@@ -1,21 +1,22 @@
 # yaml-language-server: $schema=../schema.json
 tokens:
-  - addressOrDenom: "0x25a367845fb5ae5ed5ee1524822f206ab5fd54fc59c85b616b7ebae375d978c9"
+  - addressOrDenom: b424d62e725fe615576e948b675d21ae7ddb9fc8f97d179d4bc5edaf1f016790
     chainName: midnight
+    igpTokenAddressOrDenom: 5a29bf11d6ac29d923f955ebd27171232433d65cdb176d780f2be17da4df8491
     connections:
-      - token: ethereum|sepolia|0x7b68c3aedce988c38509310c6545ee22d789aaf0
+      - token: ethereum|sepolia|0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb
     decimals: 6
-    logoURI: /deployments/warp_routes/NIGHT/logo.svg
     name: NIGHT
     scale: 1000000000000
     standard: MidnightHypNative
     symbol: NIGHT
-  - addressOrDenom: "0x7b68c3aedce988c38509310c6545ee22d789aaf0"
+    tokenType: native
+  - addressOrDenom: "0x1F7FA3bFC565a7a31C1A44EF928DB04f162a84Fb"
     chainName: sepolia
     connections:
-      - token: midnight|midnight|0x25a367845fb5ae5ed5ee1524822f206ab5fd54fc59c85b616b7ebae375d978c9
+      - token: midnight|midnight|b424d62e725fe615576e948b675d21ae7ddb9fc8f97d179d4bc5edaf1f016790
     decimals: 18
-    logoURI: /deployments/warp_routes/NIGHT/logo.svg
-    name: Stagenet NIGHT
+    name: NIGHT
     standard: EvmHypSynthetic
     symbol: sNIGHT
+    tokenType: synthetic

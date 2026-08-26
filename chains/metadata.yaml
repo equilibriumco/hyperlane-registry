@@ -5391,6 +5391,8 @@ midnight:
   domainId: 1234
   gatewayUrls:
     - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
+  index:
+    from: 13407
   isTestnet: true
   midnightNetworkId: stagenet
   name: midnight
@@ -7642,6 +7644,8 @@ sepolia:
   domainId: 11155111
   gasCurrencyCoinGeckoId: ethereum
   gnosisSafeTransactionServiceUrl: https://api.safe.global/tx-service/sep
+  index:
+    from: 11513553
   isTestnet: true
   name: sepolia
   nativeToken:
@@ -7649,6 +7653,7 @@ sepolia:
     name: Ether
     symbol: ETH
   protocol: ethereum
+  rpcConsensusType: fallback
   rpcUrls:
     - http: https://ethereum-sepolia.publicnode.com
     - http: https://gateway.tenderly.co/public/sepolia
