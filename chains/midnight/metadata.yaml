@@ -3,6 +3,8 @@ blocks:
   confirmations: 0
   estimateBlockTime: 6
   reorgPeriod: 1
+# Midnight has no EVM chain id, so this is a chosen value rather than a derived
+# one. The local devnet uses the same 1234 for both chainId and domainId.
 chainId: 1234
 deployer:
   name: Equilibrium
@@ -12,6 +14,9 @@ domainId: 1234
 gatewayUrls:
   - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
 isTestnet: true
+# Required by the SDK - signing throws without it - but absent from
+# schema.json, so nothing validates its presence. Tolerated at runtime because
+# the metadata schema passes unknown fields through.
 midnightNetworkId: stagenet
 name: midnight
 nativeToken:
@@ -20,6 +25,10 @@ nativeToken:
   name: NIGHT
   symbol: NIGHT
 protocol: midnight
+# The node speaks websocket only, and an rpcUrls entry must carry `http` per
+# the schema, so the wss URL goes there. The agents require rpcUrls to be
+# non-empty and then ignore the value: Midnight's submit path is configured
+# separately. Reads go to gatewayUrls above, not here.
 rpcUrls:
   - http: wss://rpc.stagenet.shielded.tools
 technicalStack: polkadotsubstrate
