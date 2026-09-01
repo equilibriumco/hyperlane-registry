@@ -303,6 +303,10 @@
           "type": "string",
           "description": "A URI to a logo image for this chain for use in user interfaces."
         },
+        "midnightNetworkId": {
+          "type": "string",
+          "description": "The Midnight network id, e.g. 'stagenet', or 'undeployed' for a local devnet."
+        },
         "name": {
           "type": "string",
           "pattern": "^[a-z][a-z0-9]*$",
