@@ -5378,22 +5378,22 @@ mevmdevnet:
   protocol: ethereum
   rpcUrls:
     - http: https://mevm.devnet.imola.movementlabs.xyz
-midnight:
+midnightpreview:
   blocks:
     confirmations: 0
     estimateBlockTime: 6
     reorgPeriod: 1
-  chainId: 1234
+  chainId: 1200
   deployer:
     name: Equilibrium
     url: https://equilibrium.co
-  displayName: Midnight Stagenet
-  domainId: 1234
+  displayName: Midnight Preview
+  domainId: 1200
   gatewayUrls:
-    - http: https://indexer.stagenet.shielded.tools/api/v3/graphql
+    - http: https://indexer.preview.midnight.network/api/v4/graphql
   isTestnet: true
-  midnightNetworkId: stagenet
-  name: midnight
+  midnightNetworkId: preview
+  name: midnightpreview
   nativeToken:
     decimals: 6
     denom: night
@@ -5401,7 +5401,7 @@ midnight:
     symbol: NIGHT
   protocol: midnight
   rpcUrls:
-    - http: wss://rpc.stagenet.shielded.tools
+    - http: https://rpc.preview.midnight.network
   technicalStack: polkadotsubstrate
 milkyway:
   availability:

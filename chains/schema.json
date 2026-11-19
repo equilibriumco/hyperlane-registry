@@ -305,7 +305,7 @@
         },
         "midnightNetworkId": {
           "type": "string",
-          "description": "The Midnight network id, e.g. 'stagenet', or 'undeployed' for a local devnet."
+          "description": "The Midnight network id, e.g. 'preview', or 'undeployed' for a local devnet."
         },
         "name": {
           "type": "string",

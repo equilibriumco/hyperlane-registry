@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../schema.json
+blocks:
+  confirmations: 0
+  estimateBlockTime: 6
+  reorgPeriod: 1
+# Midnight has no EVM chain id, so this is a chosen value, kept equal to the
+# domain id.
+chainId: 1200
+deployer:
+  name: Equilibrium
+  url: https://equilibrium.co
+displayName: Midnight Preview
+domainId: 1200
+gatewayUrls:
+  - http: https://indexer.preview.midnight.network/api/v4/graphql
+isTestnet: true
+# Required by the SDK - signing throws without it - but optional in
+# schema.json, so nothing validates its presence.
+midnightNetworkId: preview
+name: midnightpreview
+nativeToken:
+  decimals: 6
+  denom: night
+  name: NIGHT
+  symbol: NIGHT
+protocol: midnight
+# The node. The CLI submits through it and the validators check the indexer's
+# copy of night's state against it; every other read goes to gatewayUrls above.
+rpcUrls:
+  - http: https://rpc.preview.midnight.network
+technicalStack: polkadotsubstrate
